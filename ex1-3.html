@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="ex1-3.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="home.html"> Assignment 1</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="ex1-3.html">Ex1-3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ex4-8.html">Ex4-8</a>
+            </li> 
+          </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+      <div class="ex1-1">
+      <p id="ex1-1">Hi! Do you wanna know of this site?</p>
+      <button type="button" class="btn btn-light" onclick='document.getElementById("ex1-1").innerHTML = " I am just studying about JavaScript."'>Open it!</button>
+      </div>
+      <br>
+      <br>
+      <br>
+    <div class="ex1-2">
+        <p>What is your mood now?</p>
+        <button type="button" class="btn btn-warning" onclick="document.getElementById('getPic').src='image/bad.JPEG'">Sad</button>
+    <img id="getPic" src="image/sad.JPEG" style="width: 200px" >
+    <button type="button" class="btn btn-warning" onclick="document.getElementById('getPic').src='image/smile.JPEG'">Smile
+    </button>
+    <br>
+    <br>
+    <br>
+    <div class="ex1-3">
+    <p id="ex1-3">Have a nice day!</p>
+    <button type="button" class="btn btn-light" onclick="document.getElementById('ex1-3').style.fontSize='30px'">You want I'm bigger?</button>
+    <br>
+    <br>
+    <br>
+
+    <p id="ex1-4">Are you scare me? &#129409</p>
+    <button type="button" class="btn btn-light" onclick="document.getElementById('ex1-4').style.display='none'">I'm Gone</button>
+    &nbsp; &nbsp; &nbsp;
+    <button type="button" class="btn btn-light" type="button" onclick="document.getElementById('ex1-4').style.display='block'">Say hi me</button>
+ 
+    </div>
+    <br>
+    <br>
+    <br>
+    <script>
+        function myFunctionEx2_1(){
+          document.getElementById("ex2-1").innerHTML = "Mind Nutkamol is my name.";
+        }
+      </script>
+
+    <p id="ex2-1">What is your name?</p>
+    <button type="button" class="btn btn-light"  type="button" onclick="myFunctionEx2_1()">My Answer </button>
+    <br>
+    <br>
+
+    <p id="ex2-2">What is your BIRTHDAY?</p>
+    <button type="button" class="btn btn-danger" type="button" onclick="myFunctionEx2_2()">My Answer</button>
+    
+    <script>
+      function myFunctionEx2_2() {
+        document.getElementById("ex2-2").innerHTML = " 18 APRIL 2002";
+      }
+    </script> 
+    <br>
+    <br>
+    <p id="ex2-3"> WHAT IS YOUR SECRET?</p>
+    <button type="button" class="btn btn-light" onclick="myFunctionEx2_3()">Answer 3</button> 
+    <script src="ex2-3.js"></script> 
+    </div>
+    <div class="ex3-1">
+      <script>window.alert("อาจารย์มาตรวจงานหรอคะ ให้คะแนนหนูเยอะๆนะคะ ทำสุดความสามารถแล้ว ขอบคุณค่ะ 😂🙏	");</script>
+    </div>
+ 
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
